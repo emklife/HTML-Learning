@@ -1,0 +1,130 @@
+/* =========================== /
+.sort::after{
+    clear: both;
+    content: " ";
+    display: block;
+    /* visibility: hidden; /
+    /* height: 0; /
+}
+.main1{
+    background-color: aqua;
+    width: 500px;
+}
+.part1{
+    width: 49%;
+    float: left;
+}
+.part2{
+    width: 50%;
+    float: right;
+}
+/* .clear{
+    clear: both;
+} */
+/* ======================= */
+/* #container{
+background-color: black;
+width: 500px;
+height: 30px;
+padding: 10px;
+text-align: center;
+margin: 0 auto;
+}
+
+#inner{
+    color: aliceblue;
+    width: 300px ;
+    background-color: red;
+    position:relative;
+    margin: 0 auto;
+    display:block ;
+} */
+/* ========================= /
+
+/* .session1{
+    border: 1px solid black;
+    width: auto;
+    height: 400px;
+}
+.pic{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    float: left;
+}
+.cv{
+    /* float: right; /
+    min-height: 100px;
+
+} 
+.lin{
+    list-style:georgian;
+    display: inline;
+}
+
+.cv p{
+    text-align: center;
+    margin-left: -100px;
+    display: inline;
+}
+#reset{
+    display: block;
+    clear:both ;
+}
+
+/* ========================= 
+h1{
+    font-size: 1.6em ;
+    font: 2em Tahoma;
+    text-transform: lowercase;
+}
+
+.center{ 
+    width: 100px;
+    height: 300px;
+    padding-left: 10px;
+    text-align: left;
+    /* border-left: 1px solid; /
+    border-right: 1px solid;
+    overflow-x: auto;
+    /* overflow-y: hidden; /
+}
+input{
+    padding: 5%;
+    margin: 5%;
+    background: url(icon.png) no-repeat 15px;
+    background-size: 30px 30px;
+    text-indent: 10px;
+}
+#element{
+    width: 298px;
+    height: 98px;
+    background-color: aquamarine;
+    border: 1px dashed black;
+    border-radius: 50px;
+}
+#element2{
+    margin: 10px;
+    width: 298px;
+    height: 98px;
+    background-color:burlywood;
+    border: 1px dashed black;
+    border-radius: 10px 50px;
+}
+#element3{
+    margin: 10px;
+    width: 298px;
+    height: 98px ;
+    background-color:pink;
+    border: 1px dashed black;
+    border-radius: 150%;
+}
+#element4{
+    margin: 10px;
+    width: 198px;
+    height: 198px ;
+    background-color:yellowgreen;
+    border: 1px dashed black;
+    border-radius: 50%;
+} */
+

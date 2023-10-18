@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Ehsan ">
+    <meta http-equiv="refresh" content="5">
+    <meta name="description" content="Free html  course">
+    <meta name="keywords" content="Learn HTML,CSS,webpage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -------------------------------------------------- -->
+    <!-- Base for all root sources -->
+    <!-- <base href="http://mywebpage.com/"> -->
+    <!-- -------------------------------------------------- -->
+    <!-- Title -->
+    <title>Document</title>
+    <div id="container">
+        <div id="inner">
+            Hello and welcome!
+        </div>
+    </div>
+    <!-- -------------------------------------------------- -->
+    <!-- INTERNAL CSS -->
+    <style>
+        .elemeNT{
+            color: red;
+            font-size: larger;
+            font-weight: 700;
+            background-color: white;
+            display: inline; 
+        }
+        #spaN{
+            font: 100;
+            color: blanchedalmond;
+            background-color: green;
+        }
+        #spaN2{
+            font-style: italic;
+        }
+        img{
+            border: 1px solid black;
+        }
+        table,th,tr,td{
+            border: 1px solid gray;
+            border-collapse: collapse; /*  for removing the double border*/
+            border-spacing: 1px;/* in opposite of uper line must not use toghether */
+            margin: auto;/* put on center */
+            /* width: 100%; */ /* stretch the table if on */
+            padding: 5px;
+            text-align: center;
+        }
+        /* tr:nth-child(even){
+            background-color: white;
+        } */
+        body{
+            background-color: rgba( 0 , 0 , 0 , 0.30 );
+            background-image: url(test3.jpeg);
+            background-blend-mode: multiply ;
+            background-repeat: no-repeat;
+            background-size: cover;/* 100% 100% */ 
+            background-attachment: fixed;
+        }
+        #A-menu{
+            display: blck; color: aliceblue; text-align: center; padding: 15px; text-decoration: none; float: left;/*for display vertically*/
+        }
+        #A-menu:hover{
+            background-color: rgba( 255 ,255 , 255 , 0.30 );
+        }
+    </style>
+    <!-- -------------------------------------------------- -->
+    <!-- EXTERNAL CSS -->
+    <!-- <link rel="stylesheet" href="/CSS/style.css"> -->
+    <!-- -------------------------------------------------- -->
+    <!-- Icon link -->
+    <link rel="icon" type="image/x-icon" href="/HTML/icon.png"><!-- ico,png,gif,jpeg,svg -->
+</head>
+<body>
+    <p>Hello this is a test</p>
+
+
+
+
+
+
+
+    <div class="center">
+        <div class="centertext">This is center</div>
+    </div>    
+    <!-- Ctrl+k+c for using comment -->
+    <!-- ctrl+* or shift+alt+a -->
+    <!-- duplicacte a text using shift-alt-cursor down -->
+    <!-- moving lines using alt-cursor down -->
+    <!-- -------------------------------------------------- -->
+    <!-- H -->
+    <h1 id="up">This is a h1 text file it preset this size font</h1>
+    <h2>This is a h2 text file it preset this size font</h2>
+    <h3>This is a h3 text file it preset this size font</h3>
+    <h4>This is a h4 text file it preset this size font</h4>
+    <h5>This is a h5 text file it preset this size font</h5>
+    <h6>This is a h6 text file it preset this size font</h6>
+    <!-- -------------------------------------------------- -->
+    <!-- lINK -->
+    <a href="https://google.com" target="_blank">This is a Link using Href</a><br><br>
+    <!-- -------------------------------------------------- -->
+    <!-- Email LINK -->
+    <a href="mailto:emk.life@gmail.com">Email Me!</a>
+    <!-- -------------------------------------------------- -->
+    <!-- BREAK -->
+    <br><br>
+    <!-- -------------------------------------------------- -->
+    <!-- IMAGE with float to left-->
+    <img 
+    src="/HTML/test.jpeg" alt="whens pic not loaded"
+    title="On mouse: My bed"
+    style="float:left; 
+    width: 350px; 
+    height: 350px; 
+    border-radius: 90%;"><br>
+    <pre>
+    asdasdasdasdasda
+    asdasdadadsasdas
+    asd
+    asd
+    asd
+    asd
+    asd
+    asd
+    aasdasdasdasdasd
+    asdasdasdasdasda
+    asd
+    asd
+    asd
+    asd
+    asdasdasdasdasdas
+    asdasdasdasdasdaa
+    <hr>
+    </pre>
+    <!-- -------------------------------------------------- -->
+    <!-- STYLE -->
+    <pre style="
+    color: rgb( 38 , 65 , 211 ); 
+    background-color: rgba( 155 , 199 , 71 , 1 ); 
+    border: 3px solid #000000;
+    font-size: 20px; 
+    font-family: Cambria;
+    text-align: center;
+    ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, consequuntur?</pre>
+    <!-- -------------------------------------------------- -->
+    <!-- PRE -->
+    <pre style="color: hsla( 188 , 41% , 61% , 1);">This text is preformatted
+        asdasdasdasd
+        asdasdasdasd
+        asdasdasdasd
+        See! just like as i typed.
+    </pre>    
+    <!-- -------------------------------------------------- -->
+    <!-- Elements formatting -->
+    <b>Bold a text</b>
+    <br>
+    <strong>strong a text</strong>
+    <br>
+    <i>italic a text</i>
+    <br>
+    <em>emphasized a text</em>
+    <br>
+    <mark>mark a text </mark>
+    <br>
+    <small>small a text</small>    
+    <br>
+    <del>delete a text</del>    
+    <br>
+    <ins>insert a text</ins>
+    <br>
+    This is an example
+    <sub>subscript a text</sub>
+    for showin
+    <br>
+    This is an example
+    <sup>superscript a text</sup>
+    for showing
+    <br><hr>
+    <!-- -------------------------------------------------- -->
+    <!-- QUOTE -->
+    For showing a quotations:
+    <br><br><mark>Style 1: using blockquote</mark>
+    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quaerat cum mollitia veniam sequi s unde tenetur minima dignissimos?</blockquote>
+    
+    <mark>Style 2:using q </mark><br><br>
+    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolorum atque voluptatum qui delectus accusamus modi excepturi explicabo iure--?</q><br><br>
+    
+    <mark>Style 3:using abbr for abbreviation</mark><br>
+    <abbr title="Ehsan Mohajer Koohestani">EMK</abbr><br><br>
+    
+    <mark>Style 4:using address</mark><br><br>
+    <address>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magni?</address><br>
+    
+    <mark>Style 5:using cite for define a title for book or movie in italic</mark><br><br>
+    <cite>Lorem ipsum dolor sit amet.</cite><br><br>
+
+    <mark>Style 6:using bdo for reverse a text</mark><br>
+    <bdo dir="rtl">this is a rtl direction for persion lang</bdo><br><hr>
+    <!-- -------------------------------------------------- -->
+    <!-- Button and jump using # -->
+    <button><a href="#up" title="Open google">Jump to Up</a></button> <br><br>
+    <!-- -------------------------------------------------- -->
+    <!-- MAP -->
+    <span>Map</span>
+    <img 
+    src="test2.jpeg" alt="laptop" title="Click for more!"
+    usemap="#laptopmap"
+    style="width: auto; height: auto;">
+    
+    <map name="laptopmap">
+        <area shape="rect" coords="34,44,270,350" href="#up" alt="go up!">
+    </map><br>
+    <hr>
+    <!-- -------------------------------------------------- -->
+    <!-- picture --> <!-- For resizing page and change the pictures -->
+    <span>Picture</span>
+    <br>
+    <picture>
+        <source media="(min-width: 550px)" srcset="pic1.jpg">
+        <source media="(min-width: 300px)" srcset="pic2.jpg">
+        <img src="pic3.jpg" style="width:250px;">
+      </picture><br><hr>
+      <!-- -------------------------------------------------- -->
+      <!-- TABLE -->
+      <table style="border: 1px solid black;">
+        <!-- colgroup -->
+        <!-- for give a style to table -->
+        <colgroup>
+            <col span="1" style="background-color: blueviolet;">
+            <col span="1" style="background-color: yellow;">
+            <col span="1" style="background-color: greenyellow;">
+            <!-- visibility of hide a coloumn -->
+            <col style="visibility: collapse; background-color: gray">
+            <!-- for the rest of table -->
+        </colgroup> 
+
+        <!-- rowspan colspan -->
+        <caption>Table 1 title</caption>
+        <tr>
+            <th >Name</th>
+            <th >Email</th>
+            <th colspan="2">Phone</th>
+        </tr>
+        <tr>
+            <td>Ehsan</td>
+            <td rowspan="2">emk.life@gmail.com</td>
+            <td>0408189294-</td>
+            <td>0408189299</td>
+        </tr>
+        <tr>
+            <td>Mahnaz</td>
+            <td colspan="2" >000000</td>
+        </tr>
+        <tr>
+            <td>ali</td>
+            <td>asdasd@asd.ca</td>
+            <td colspan="2" >123123123</td>
+        </tr>
+    </table>
+    <br>
+    <!-- -------------------------------------------------- -->
+    <!-- Table 2 -->
+    <table 
+    style="
+    border-collapse: collapse; 
+    border: 2px dotted white;
+    background-color: #96D4D4;
+    border-radius: 20px;
+    width:100%; /* for stretch entire the screen */
+    height: auto;"><!-- determin the width or height of table -->
+        
+        <caption>Table 2</caption>
+        <thead><!-- Head -->
+          <tr style="border: 2px dashed white;">
+            <!-- join two row with colspan or rowspan-->
+            <th colspan="2">Name</th> 
+            <th style="border: 2px double white;">Month</th>
+            <th>Savings</th>
+          </tr>
+        </thead> 
+
+        <tbody style="border: 2px groove white;"><!-- body -->
+          <tr style="rows">
+            <td style="border: 2px ridge white;">January</td>
+            <td>$100</td>
+          </tr>
+        </tbody>
+        <!-- border TAG -->
+        <!-- border-radius: 10px -->
+        <!-- border-style: solid,dashed,dotted,double,groove,ridge,inset,outset, -->
+        <!-- border-color: red -->
+        
+        <tfoot> <!-- footer -->
+          <tr>
+            <td style="border: 2px inset white;">Sum</td>
+            <!--define padding for row -->
+            <td 
+            style="padding-top: 10px; 
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;">$180</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br><hr>
+      <!-- -------------------------------------------------- -->
+      <!-- LIST -->
+      <p>Unorderd list</p>
+      <ul style="list-style-type:square;"><!-- disc,circle,none -->
+        <li>Home page</li>
+            <ol>
+                <li>main page1</li>
+                <li>main page2</li>
+            </ol>
+        <li>Resume</li>
+        <li>About</li>
+      </ul>
+      <!-- -------------------------------------------------- -->
+      <p>Orderd list</p>
+      <ol type="A" start="3"><!--  start has just number -->
+        <li>Home page</li>
+        <li>Resume</li>
+        <li>About</li>
+      </ol>
+      <!-- -------------------------------------------------- -->
+      <p>Description list</p>
+      <dl>
+        <dt>Home page</dt>
+            <dd>package</dd>
+        <dt>About</dt>
+            <dd>my contact</dd>
+      </dl>
+      <hr><br>
+      <!-- -------------------------------------------------- -->
+      <!-- Menu bar using list items -->
+      <p>Menu list bar (Navigation bar)</p>
+        <ul style=" list-style-type: none;
+        background-color: darkolivegreen;
+        overflow: hidden;">
+            <li><a href="https://google.com" id="A-menu"> Home    </a></li>
+            <li><a href="https://google.com" id="A-menu"> News    </a></li>
+            <li><a href="https://google.com" id="A-menu"> Contact </a></li>
+            <li><a href="https://google.com" id="A-menu"> About   </a></li>
+        </ul>
+        <hr><br>
+        <!-- -------------------------------------------------- -->
+        <!-- Blocks -->
+        <pre>
+    Here are the block-level elements in HTML: 
+        *address
+        *article
+        *aside 
+        *blockquote  
+        *canvas  
+        *dd  
+        *div 
+        *dl
+        *dt  
+        *fieldset
+        *figcaption
+        *figure
+        *footer
+        *form
+        *h1-h6
+        *header
+        *hr
+        *li
+        *main
+        *nav
+        *noscript
+        *ol
+        *p
+        *pre
+        *section
+        *table
+        *tfoot
+        *ul
+        *video
+        </pre>
+        <hr><br>
+        <!-- -------------------------------------------------- -->
+        <!-- class -->
+        <p class="elemeNT">elements</p><br>
+
+        <mark> inline elements list </mark>
+        a,abbr,b,dbo,big,br,buttom,cite,code,em,i,img,input,label,map,q,small,span,strong,sub,sup,tt,time,textarea.
+        <hr><br>
+        <!-- id (unique)-->
+        <span id="spaN">Span:</span><br>
+        <mark> span: to add a text in line</mark>
+        <span id="spaN2">This is a normal text</span>
+        <br><hr>
+        <!-- -------------------------------------------------- -->
+        <!-- dive : to add a section in webpage -->
+        <div style="background-color:black;color:white;padding:20px;">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          </div><br><hr>
+        <!-- -------------------------------------------------- -->
+          <!-- iFrame -->
+          <span>for showing a webpage inside our page</span><br>
+          <a href="https://google.com" target="iframe_a">Click  for more!</a>
+          <iframe src="" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>        <!-- -------------------------------------------------- -->
+        <br><hr>
+        <!-- -------------------------------------------------- -->
+    
+</body>
+</html>
